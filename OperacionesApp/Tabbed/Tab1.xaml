@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp.Tabbed.Tab1"
+            xmlns:local="clr-namespace:OperacionesApp.Tabbed"
+             Title="Tab1">
+    <ContentPage/>
+    <local:AreaCuadrado/>
+    <ContentPage/>
+    <local:AreaCirculo/>
+    <ContentPage/>
+    <local:AreaTriangulo/>
+</TabbedPage>
