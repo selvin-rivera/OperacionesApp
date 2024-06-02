@@ -4,7 +4,7 @@
              x:Class="OperacionesApp.MainPage">
 
     <VerticalStackLayout Padding="40" Spacing="20">
-        <Button x:Name="btnTabbd" Text="TabbedPage" Clicked="btnTabbd_Clicked"/>
+        <Button x:Name="btnTabbd" Text="Calcular Area" Clicked="btnTabbd_Clicked"/>
     </VerticalStackLayout>
- 
+    
 </ContentPage>
