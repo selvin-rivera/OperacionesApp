@@ -4,13 +4,13 @@
              x:Class="OperacionesApp.Tabbed.AreaCirculo"
              Title="Area del Circulo">
     <VerticalStackLayout Padding="40" Spacing="10">
-        <Label Text="Ingrese Primer número: " FontAttributes="Bold" />
-        <Entry x:Name="txtN1" Keyboard="Numeric" Placeholder="Ingrese Primer número..."/>
-        <Label Text="Ingrese Segundo número: " FontAttributes="Bold" />
-        <Entry x:Name="txtN2" Keyboard="Numeric" Placeholder="Ingrese Segundo número..."/>
+        <Label Text="Ingrese Primer radio: " FontAttributes="Bold" />
+        <Entry x:Name="txtN1" Keyboard="Numeric" Placeholder="Ingrese Primer número radio..."/>
+        <Label Text="Ingrese Segundo radio: " FontAttributes="Bold" />
+        <Entry x:Name="txtN2" Keyboard="Numeric" Placeholder="Ingrese Segundo número radio..."/>
         <Label Text="Resultdo: " FontAttributes="Bold" />
         <Entry x:Name="txtResultado" IsReadOnly="True"/>
-        <Button x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked" Background="Aqua"/>
-        <Button x:Name="btnLimpiar" Text="Limpiar" Clicked="btnLimpiar_Clicked" BackgroundColor="BlueViolet"/>
+        <Button x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked" Background="Crimson"/>
+        <Button x:Name="btnLimpiar" Text="Limpiar" Clicked="btnLimpiar_Clicked" BackgroundColor="DarkGoldenrod"/>
     </VerticalStackLayout>
 </ContentPage>
