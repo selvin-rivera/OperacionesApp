@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OperacionesApp.Tabbed.AreaCirculo"
-             Title="AreaCirculo">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+             Title="Area del Circulo">
+    <VerticalStackLayout Padding="40" Spacing="10">
+        <Label Text="Ingrese Primer número: " FontAttributes="Bold" />
+        <Entry x:Name="txtN1" Keyboard="Numeric" Placeholder="Ingrese Primer número..."/>
+        <Label Text="Ingrese Segundo número: " FontAttributes="Bold" />
+        <Entry x:Name="txtN2" Keyboard="Numeric" Placeholder="Ingrese Segundo número..."/>
+        <Label Text="Resultdo: " FontAttributes="Bold" />
+        <Entry x:Name="txtResultado" IsReadOnly="True"/>
+        <Button x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked" Background="Aqua"/>
+        <Button x:Name="btnLimpiar" Text="Limpiar" Clicked="btnLimpiar_Clicked" BackgroundColor="BlueViolet"/>
     </VerticalStackLayout>
 </ContentPage>

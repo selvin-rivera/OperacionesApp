@@ -10,7 +10,7 @@
         <Entry x:Name="txtN2" Keyboard="Numeric" Placeholder="Ingrese Segundo número..."/>
         <Label Text="Resultdo: " FontAttributes="Bold" />
         <Entry x:Name="txtResultado" IsReadOnly="True"/>
-        <Button x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked"/>
-        <Button x:Name="btnLimpiar" Text="Limpiar" Clicked="btnLimpiar_Clicked"/>
+        <Button x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked" Background="Black"/>
+        <Button x:Name="btnLimpiar" Text="Limpiar" Clicked="btnLimpiar_Clicked"     BackgroundColor="Chartreuse"/>
     </VerticalStackLayout>
 </ContentPage>
